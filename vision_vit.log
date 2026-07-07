@@ -1,0 +1,96 @@
+Device: cuda
+Number of aligned folders: 1734
+Number of actors: 91
+preprocessor_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 160/160 [00:00<00:00, 43.7kB/s]
+config.json: 69.7kB [00:00, 126MB/s]
+Fast image processor class <class 'transformers.models.vit.image_processing_vit_fast.ViTImageProcessorFast'> is available for this model. Using slow image processor class. To use the fast image processor class set `use_fast=True`.
+Input tensor shape per sample: torch.Size([3, 384, 384])
+Batch input tensor shape: torch.Size([16, 3, 384, 384])
+Label shape: torch.Size([16])
+pytorch_model.bin: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.22G/1.22G [00:40<00:00, 30.3MB/s]
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-large-patch16-384 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model.safetensors:   0%|                                                                                                                                                                                                | 15.1k/1.22G [00:01<30:31:45, 11.1kB/s]model.safetensors:   0%|▎                                                                                                                                                                                                  | 1.73M/1.22G [00:02<19:07, 1.06MB/s]model.safetensors:   0%|▋                                                                                                                                                                                                  | 3.95M/1.22G [00:02<08:58, 2.25MB/s]model.safetensors:   1%|█▌                                                                                                                                                                                                 | 10.1M/1.22G [00:03<04:23, 4.59MB/s]model.safetensors:   1%|██▎                                                                                                                                                                                                | 14.2M/1.22G [00:03<03:28, 5.79MB/s]model.safetensors:   2%|███▌                                                                                                                                                                                               | 22.4M/1.22G [00:04<01:58, 10.1MB/s]model.safetensors:   3%|████▉                                                                                                                                                                                              | 30.6M/1.22G [00:05<02:12, 8.98MB/s]model.safetensors:   3%|█████▊                                                                                                                                                                                             | 36.6M/1.22G [00:06<02:24, 8.18MB/s]model.safetensors:   4%|██████▉                                                                                                                                                                                            | 43.7M/1.22G [00:06<01:46, 11.1MB/s]model.safetensors:   4%|███████▌                                                                                                                                                                                           | 47.6M/1.22G [00:07<02:13, 8.79MB/s]model.safetensors:   4%|███████▉                                                                                                                                                                                           | 49.7M/1.22G [00:08<03:37, 5.38MB/s]model.safetensors:   5%|████████▉                                                                                                                                                                                          | 55.7M/1.22G [00:09<02:54, 6.65MB/s]model.safetensors:   6%|███████████▌                                                                                                                                                                                       | 71.9M/1.22G [00:09<01:26, 13.3MB/s]model.safetensors:   7%|████████████▊                                                                                                                                                                                      | 80.0M/1.22G [00:10<01:24, 13.4MB/s]model.safetensors:   7%|█████████████                                                                                                                                                                                      | 81.7M/1.22G [00:10<01:42, 11.1MB/s]model.safetensors:   9%|█████████████████▊                                                                                                                                                                                  | 111M/1.22G [00:12<01:09, 15.9MB/s]model.safetensors:   9%|██████████████████▍                                                                                                                                                                                 | 114M/1.22G [00:13<01:48, 10.2MB/s]model.safetensors:  11%|█████████████████████                                                                                                                                                                               | 131M/1.22G [00:14<01:14, 14.7MB/s]model.safetensors:  11%|██████████████████████                                                                                                                                                                              | 137M/1.22G [00:14<01:04, 16.8MB/s]model.safetensors:  13%|█████████████████████████▍                                                                                                                                                                          | 158M/1.22G [00:15<00:50, 20.9MB/s]model.safetensors:  14%|███████████████████████████▉                                                                                                                                                                        | 174M/1.22G [00:17<01:14, 13.9MB/s]model.safetensors:  15%|████████████████████████████▋                                                                                                                                                                       | 178M/1.22G [00:18<01:37, 10.7MB/s]model.safetensors:  17%|█████████████████████████████████                                                                                                                                                                   | 205M/1.22G [00:18<00:48, 21.0MB/s]model.safetensors:  18%|███████████████████████████████████▋                                                                                                                                                                | 222M/1.22G [00:19<00:39, 25.5MB/s]model.safetensors:  20%|████████████████████████████████████████                                                                                                                                                            | 249M/1.22G [00:20<00:34, 28.2MB/s]model.safetensors:  22%|██████████████████████████████████████████▋                                                                                                                                                         | 266M/1.22G [00:21<00:37, 25.5MB/s]model.safetensors:  23%|█████████████████████████████████████████████▍                                                                                                                                                      | 282M/1.22G [00:21<00:41, 22.7MB/s]model.safetensors:  25%|█████████████████████████████████████████████████▋                                                                                                                                                  | 309M/1.22G [00:23<00:43, 20.7MB/s]model.safetensors:  29%|█████████████████████████████████████████████████████████▋                                                                                                                                          | 359M/1.22G [00:25<00:34, 25.1MB/s]model.safetensors:  31%|████████████████████████████████████████████████████████████▍                                                                                                                                       | 376M/1.22G [00:27<00:46, 18.0MB/s]model.safetensors:  35%|████████████████████████████████████████████████████████████████████▍                                                                                                                               | 426M/1.22G [00:27<00:24, 32.8MB/s]model.safetensors:  36%|███████████████████████████████████████████████████████████████████████▏                                                                                                                            | 442M/1.22G [00:28<00:21, 36.1MB/s]model.safetensors:  47%|████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                       | 576M/1.22G [00:29<00:07, 81.9MB/s]model.safetensors:  58%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                 | 711M/1.22G [00:30<00:05, 97.3MB/s]model.safetensors:  64%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                       | 778M/1.22G [00:31<00:05, 85.5MB/s]model.safetensors:  69%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                            | 845M/1.22G [00:31<00:03, 114MB/s]model.safetensors:  72%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                      | 884M/1.22G [00:33<00:05, 61.6MB/s]model.safetensors:  83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                | 1.02G/1.22G [00:36<00:03, 52.6MB/s]model.safetensors:  89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                     | 1.08G/1.22G [00:36<00:01, 71.5MB/s]model.safetensors:  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎          | 1.15G/1.22G [00:38<00:01, 59.2MB/s]model.safetensors: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.22G/1.22G [00:39<00:00, 31.2MB/s]
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.6538 | batch acc 0.2500 | running acc 0.2628
+Epoch 001 | train loss 1.7591 acc 0.2628 | test loss 1.6158 acc 0.3458 | best 0.3458
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.4850 | batch acc 0.2500 | running acc 0.3874
+Epoch 002 | train loss 1.5212 acc 0.3874 | test loss 1.5546 acc 0.3806 | best 0.3806
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.2412 | batch acc 0.5000 | running acc 0.4234
+Epoch 003 | train loss 1.4041 acc 0.4234 | test loss 1.4870 acc 0.4179 | best 0.4179
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.8653 | batch acc 0.2500 | running acc 0.4827
+Epoch 004 | train loss 1.3007 acc 0.4827 | test loss 1.4899 acc 0.4179 | best 0.4179
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.3193 | batch acc 0.5000 | running acc 0.5113
+Epoch 005 | train loss 1.2222 acc 0.5113 | test loss 1.4061 acc 0.4602 | best 0.4602
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.5876 | batch acc 0.0000 | running acc 0.5120
+Epoch 006 | train loss 1.1899 acc 0.5120 | test loss 1.4328 acc 0.4900 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.6539 | batch acc 0.2500 | running acc 0.5623
+Epoch 007 | train loss 1.1120 acc 0.5623 | test loss 1.5308 acc 0.4428 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 0.8826 | batch acc 0.5000 | running acc 0.5526
+Epoch 008 | train loss 1.0757 acc 0.5526 | test loss 1.4950 acc 0.4453 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 0.8476 | batch acc 0.7500 | running acc 0.5751
+Epoch 009 | train loss 1.0163 acc 0.5751 | test loss 1.4997 acc 0.4552 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.1072 | batch acc 0.5000 | running acc 0.5991
+Epoch 010 | train loss 0.9899 acc 0.5991 | test loss 1.4823 acc 0.4527 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 0.8663 | batch acc 0.5000 | running acc 0.6419
+Epoch 011 | train loss 0.9364 acc 0.6419 | test loss 1.5875 acc 0.4478 | best 0.4900
+Learning rate: 0.001000 | Training batch 84/84 | batch loss 1.2802 | batch acc 0.5000 | running acc 0.6622
+Epoch 012 | train loss 0.8921 acc 0.6622 | test loss 1.5732 acc 0.4527 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 0.2971 | batch acc 1.0000 | running acc 0.6734
+Epoch 013 | train loss 0.8187 acc 0.6734 | test loss 1.5597 acc 0.4776 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 1.4137 | batch acc 0.2500 | running acc 0.7057
+Epoch 014 | train loss 0.7727 acc 0.7057 | test loss 1.5732 acc 0.4751 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 0.7096 | batch acc 0.7500 | running acc 0.6989
+Epoch 015 | train loss 0.7504 acc 0.6989 | test loss 1.5622 acc 0.4776 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 0.9119 | batch acc 0.7500 | running acc 0.7207
+Epoch 016 | train loss 0.7392 acc 0.7207 | test loss 1.6201 acc 0.4627 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 1.1331 | batch acc 0.2500 | running acc 0.7207
+Epoch 017 | train loss 0.7216 acc 0.7207 | test loss 1.6068 acc 0.4602 | best 0.4900
+Learning rate: 0.000500 | Training batch 84/84 | batch loss 0.8339 | batch acc 0.5000 | running acc 0.7342
+Epoch 018 | train loss 0.7035 acc 0.7342 | test loss 1.6869 acc 0.4701 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.5214 | batch acc 0.7500 | running acc 0.7568
+Epoch 019 | train loss 0.6547 acc 0.7568 | test loss 1.6364 acc 0.4701 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 1.4979 | batch acc 0.5000 | running acc 0.7455
+Epoch 020 | train loss 0.6437 acc 0.7455 | test loss 1.6168 acc 0.4851 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.5999 | batch acc 0.7500 | running acc 0.7718
+Epoch 021 | train loss 0.6355 acc 0.7718 | test loss 1.6000 acc 0.4801 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 1.3797 | batch acc 0.5000 | running acc 0.7733
+Epoch 022 | train loss 0.6189 acc 0.7733 | test loss 1.6567 acc 0.4726 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.4955 | batch acc 1.0000 | running acc 0.7800
+Epoch 023 | train loss 0.5985 acc 0.7800 | test loss 1.6635 acc 0.4751 | best 0.4900
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.2015 | batch acc 1.0000 | running acc 0.7680
+Epoch 024 | train loss 0.6045 acc 0.7680 | test loss 1.6308 acc 0.4925 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.3358 | batch acc 0.7500 | running acc 0.7853
+Epoch 025 | train loss 0.5859 acc 0.7853 | test loss 1.6975 acc 0.4627 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.8479 | batch acc 0.5000 | running acc 0.7845
+Epoch 026 | train loss 0.5892 acc 0.7845 | test loss 1.6952 acc 0.4652 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.6446 | batch acc 0.7500 | running acc 0.7778
+Epoch 027 | train loss 0.5762 acc 0.7778 | test loss 1.6750 acc 0.4801 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.5351 | batch acc 1.0000 | running acc 0.7905
+Epoch 028 | train loss 0.5731 acc 0.7905 | test loss 1.6784 acc 0.4801 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.1882 | batch acc 1.0000 | running acc 0.7935
+Epoch 029 | train loss 0.5455 acc 0.7935 | test loss 1.7136 acc 0.4677 | best 0.4925
+Learning rate: 0.000250 | Training batch 84/84 | batch loss 0.5306 | batch acc 0.7500 | running acc 0.8041
+Epoch 030 | train loss 0.5388 acc 0.8041 | test loss 1.7372 acc 0.4826 | best 0.4925
+
+Final Accuracy: 0.48258706467661694
+              precision    recall  f1-score   support
+
+         ANG     0.4568    0.5522    0.5000        67
+         DIS     0.7903    0.6447    0.7101        76
+         FEA     0.3171    0.3881    0.3490        67
+         HAP     0.7347    0.6102    0.6667        59
+         NEU     0.4615    0.4068    0.4324        59
+         SAD     0.2895    0.2973    0.2933        74
+
+    accuracy                         0.4826       402
+   macro avg     0.5083    0.4832    0.4919       402
+weighted avg     0.5072    0.4826    0.4911       402
+
+Confusion matrix:
+[[37  4 11  3  7  5]
+ [ 9 49  8  0  0 10]
+ [12  0 26  3  8 18]
+ [ 7  4  3 36  3  6]
+ [ 6  3  8  3 24 15]
+ [10  2 26  4 10 22]]
+Saved checkpoint: vision_vit.pt
